@@ -1,3 +1,19 @@
 apiVersion: v1
-entries: {}
-generated: "2025-07-17T13:18:47.161792+02:00"
+entries:
+  smtp:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: "Support numeric configuration settings via --set parameters"
+    apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-07-29T10:41:24.351768+02:00"
+    description: exim based smtp smarthost / mail relay
+    digest: 01848f63275bb4e3cb0ccce6b6e89606b936ef0a4c480c57bfdf309e98934960
+    home: https://gitlab.com/egos-tech/smtp
+    name: smtp
+    type: application
+    urls:
+    - https://wireapp.github.io/wire-ntppoolcharts-fork/smtp-2.1.3.tgz
+    version: 2.1.3
+generated: "2025-07-29T10:41:24.351033+02:00"
